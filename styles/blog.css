@@ -1,7 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 .noto-serif-font{
   font-family: "Noto Serif", serif;
@@ -29,7 +26,7 @@ body{
     margin: 0 auto;
 }
 .btn-primary{
-    background-color: #FF900E;
+    background-color: #E95A08;
     font-size: 1rem;
     color: #FFFFFF;
     padding: 19px 80px;
@@ -146,9 +143,47 @@ body{
     margin-top: -120px;
     filter:drop-shadow(100%)
 }
+/* Join section */
+.join-section{
+    margin-top: 120px;
+    width: 1440px;
+    height: 533px;
+    background-image: url(../assets/news-letter-bg.png);
 
+}
+.bunch-message h1{
+   font-size: 3rem;
+   font-weight: bold;
+   color: #FFFFFF;
+    
+}
+.bunch-message, input{
+        width: 644px;
+        height: 58px;
+        padding: 8px 20px;
+        font-size: 1rem;
+        
+}
 
+/* Footer sectionn */
+    footer{
+        width: 1440px;
+        height: 348px;
+        display: flex;
+        margin: 50px 160px;
 
+    }
+.footer-logo{
+    width: 360px;
+}
+.foter-item li{
+    list-style: none;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+    margin: 10px;
+}
 
 
 /* @media screen and (max-width: 576px) {
