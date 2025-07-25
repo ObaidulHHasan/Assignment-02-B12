@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -22,6 +24,18 @@
 .bg{
     background-color: whitesmoke;
 }
+body{
+    width: 1140px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #FF900E;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 19px 80px;
+    border: none;
+    font-weight: 600;
+}
 
 /* Nav style */
 .navbar{
@@ -29,7 +43,6 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    height: 250px;
     
     
 } 
@@ -68,5 +81,52 @@
     align-items:end;
 }
 
+/* Plant style */
+.plant{
+    text-align: center;
+    margin-top: 120px;
+}
+.plant-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.plant-description{
+    font-size: 1.25rem;
+
+}
+.card{
+    width: 270px;
+    
+   
+}
+.card h4{
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #111111;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #111111;
+     margin-top: 10px;
+     
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
 
 
+
+
+
+
+@media screen and (max-width: 576px) {
+    .card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
