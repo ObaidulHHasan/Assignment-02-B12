@@ -1,194 +1,567 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
-.noto-serif-font{
+.noto-serif-font {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400;
   font-style: normal;
 }
 
 /* Shared style */
-.display{
-    display: flex;
+.display {
+  display: flex;
 }
-.dark-3{
-    color: #857777;
-    font-size: 1.25rem;
+.dark-3 {
+  color: #857777;
+  font-size: 1.25rem;
 }
-.text-primary{
-    color: #E95A08;
+.text-primary {
+  color: #e95a08;
 }
-.bg{
-    background-color: whitesmoke;
+.second-title {
+  font-size: 3rem;
+  font-weight: bold;
 }
-body{
-    width: 1140px;
-    margin: 0 auto;
+.bg {
+  background-color: whitesmoke;
 }
-.btn-primary{
-    background-color: #E95A08;
-    font-size: 1rem;
-    color: #FFFFFF;
-    padding: 19px 80px;
-    border: none;
-    font-weight: 600;
+body {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+.btn-primary {
+  background-color: #e95a08;
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 20px 80px;
+  border: none;
+  font-weight: 600;
 }
 
 /* Nav style */
-.navbar{
-     width: 1140px;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-} 
-.nav-item{
-    list-style: none;
-    margin: 20px;
+.navbar {
+  width: 1140px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  list-style: none;
+  margin: 20px;
 }
 
-.nav-link{
-    text-decoration: none;
-    color: #8987A1;
-    font-weight: 500;
+.nav-link {
+  text-decoration: none;
+  color: #8987a1;
+  font-weight: 500;
 }
 /* Banner style */
-.banner{
-    width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.banner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
-.banner-content{
-   margin-top: 120px;
-
+.banner-content {
+  margin-top: 120px;
 }
-.banner-title{
-    font-size: 4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.banner-description{
-    font-size: 1.25rem;
+.banner-description {
+  font-size: 1.25rem;
 }
-.banner-image{
-    display: flex;
-    justify-content:flex-end;
-    align-items:end;
+.banner-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Plant style */
-.plant{
-    text-align: center;
-    margin-top: 120px;
+.plant {
+  width: 1140px;
+  text-align: center;
+  margin-top: 120px;
 }
-.plant-title{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 16px;
+.plant-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  line-height: 1;
 }
-.plant-description{
-    font-size: 1.25rem;
-
+.plant-description {
+  font-size: 1.25rem;
+  text-align: center;
 }
-.card{
-    width: 270px;
-    
-   
+.card {
+  width: 270px;
 }
-.card h4{
-    font-size: 1.25rem;
-    font-weight: normal;
-    color: #111111;
-    margin-bottom: 10px;
+.card h4 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  color: #111111;
+  margin-bottom: 10px;
 }
-.card p{
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #111111;
-     margin-top: 10px;
-     
+.card p {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111111;
+  margin-top: 10px;
 }
-.card-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
+.trust {
+    width: 180px;
+    height: 180px;
+    top: -70px;
+    left: 400px;
+    position: absolute;
+  }
 /* plant lover section */
-.plant-lover{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 210px;
+.plant-lover {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 210px;
+  width: 1140px;
+  position: relative;
 }
-.plant-lover-description{
-    width: 540px;
-    height: 550px;
-    margin-left: -50px;
+.plant-lover-description {
+  width: 540px;
+  height: 550px;
+  margin-left: -50px;
 }
-.plant-lover-description h1{
-    font-size: 3.25rem;
-    font-weight: bold;
+.plant-lover-description h1 {
+  font-size: 3.25rem;
+  font-weight: bold;
 }
-.ul>li{
-    font-size: 1.25rem;
+.ul > li {
+  font-size: 1.25rem;
 }
-.flower-store{
-    height: 550px;
+.flower-store {
+  height: 550px;
 }
-.trust{
-    width: 286px;
-    height: 286px;
-    margin-left: -200px;
-    margin-top: -120px;
-    filter:drop-shadow(100%)
+.plant-lover-description ul li {
+  text-align: left;
 }
+/* latest deals */
+.latest-deals {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.offer-container {
+  display: grid;
+  grid-template-columns: auto / repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  grid-template-areas:
+    "oc1 oc3 oc3"
+    "oc2 oc3 oc3";
+}
+.offer-card {
+  min-height: 200px;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.black-box-shadow {
+  width: 100%;
+  height: 100%;
+  background-color: #00000070;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  z-index: 5;
+}
+.offer-card-1 {
+  grid-area: oc1;
+  background-image: url(../assets/deal-bloom.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.offer-card-2 {
+  grid-area: oc2;
+  background-image: url(../assets/deal-ana.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.offer-card-3 {
+  grid-area: oc3;
+  background-image: url(../assets/deal-zabon.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.offer-title-container {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.offer-title-small {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.offer-title-large {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+.offer-btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  border-radius: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 /* Join section */
-.join-section{
-    margin-top: 120px;
-    width: 1440px;
-    height: 533px;
-    background-image: url(../assets/news-letter-bg.png);
-
+.join-section {
+  margin-top: 120px;
+  width: 100%;
+  height: 600px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.bunch-message h1{
-   font-size: 3rem;
-   font-weight: bold;
-   color: #FFFFFF;
-    
+.bunch-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.bunch-message, input{
-        width: 644px;
-        height: 58px;
-        padding: 8px 20px;
-        font-size: 1rem;
-        
+.join-section h2 {
+  color: #ffffff;
+  line-height: 0;
 }
-
-/* Footer sectionn */
-    footer{
-        width: 1440px;
-        height: 348px;
-        display: flex;
-        margin: 50px 160px;
-
-    }
-.footer-logo{
-    width: 360px;
-}
-.foter-item li{
-    list-style: none;
-}
-.footer-link{
-    text-decoration: none;
-    color: rgba(107, 114, 128, 1);
-    margin: 10px;
+.bunch-message,
+input {
+  width: 644px;
+  padding: 20px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
 }
 
+/* Footer section */
+footer {
+  width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px 160px;
+  gap: 20px;
+}
+.footer-logo {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.footer-items {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 15px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #8987a1;
+}
 
-/* @media screen and (max-width: 576px) {
-    .card-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-} */
+.footer-sponsor {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
+
+.footer-sponsor img {
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .nav-hide{
+   display: none;
+  }
+  main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  /* General adjustments */
+  .dark-3 {
+    font-size: 1rem;
+  }
+
+  /* Navigation */
+  .navbar {
+    width: 95%;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-item {
+    margin: 5px;
+    text-align: center;
+  }
+
+  /* Banner */
+  .banner {
+    width: 95%;
+    padding: 0 10px;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    justify-content: start;
+  }
+
+  .banner-content {
+    margin-top: 20px;
+    order: 2;
+  }
+
+  .banner-image {
+    order: 1;
+  }
+
+  .banner-title {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+    padding: 0 10px;
+    text-align: left;
+  }
+
+  .banner-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Plant section */
+  .plant {
+    width: 95%;
+    margin-top: 60px;
+    padding: 0 10px;
+  }
+
+  .plant-title {
+    font-size: 2rem;
+  }
+
+  .plant-description {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .trust {
+    display: none;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-primary {
+    padding: 15px 30px;
+    font-size: 0.9rem;
+  }
+
+  /* Plant lover section */
+  .plant-lover {
+    width: 95%;
+    margin-top: 60px;
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .plant-lover-description {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .plant-lover-description h1 {
+    font-size: 2rem;
+  }
+
+  .plant-lover-description ul li {
+    font-size: 1rem;
+  }
+
+  .flower-store {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .trust {
+    width: 150px;
+    height: 150px;
+    margin-left: 0;
+    margin-top: 0;
+    position: relative;
+  }
+
+  /* Latest deals */
+  .latest-deals {
+    width: 95%;
+    margin-top: 60px;
+    padding: 0 10px;
+  }
+
+  .offer-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "oc1"
+      "oc2"
+      "oc3";
+    gap: 15px;
+  }
+
+  .offer-card {
+    min-height: 150px;
+    padding: 15px;
+  }
+
+  .offer-title-small,
+  .offer-title-large {
+    font-size: 1.5rem;
+  }
+
+  .offer-btn {
+    font-size: 1.1rem;
+  }
+
+  /* Join section */
+  .join-section {
+    margin-top: 60px;
+    padding: 40px 10px;
+    height: auto;
+  }
+
+  .second-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 30px;
+  }
+
+  .bunch-message {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .bunch-message input {
+    width: 40%;
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .btn-primary {
+    /* width: 100%; */
+    max-width: 300px;
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  footer {
+    width: 95%;
+    grid-template-columns: 1fr;
+    margin: 30px 10px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 95%;
+    align-items: center;
+  }
+
+  .footer-items {
+    align-items: start;
+  }
+
+  .footer-sponsor {
+    justify-content: start;
+    padding-left: 30px;
+  }
+
+  .footer-sponsor img {
+    width: 30px;
+    height: 30px;
+  }
+}
